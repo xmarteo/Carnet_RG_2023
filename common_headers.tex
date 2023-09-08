@@ -92,7 +92,6 @@ headsep=3mm,
 
 %%%%%%%%%%%%%%% Main font
 \setmainfont[Ligatures=TeX, Scale=\customscale]{Charis SIL}
-%\setmainfont[Ligatures=TeX, Scale=\customscale]{TeXGyreBonum-Regular}
 \setstretch{\fpevalc{1.05 * \customscale}}
 
 %%%%%%%%%%%%%%% Score initials
@@ -199,11 +198,15 @@ headsep=3mm,
   \par{\centering\textbf{#1}\par}
 }
 
-\newcommand{\bigtitle}[1]{
+\newcommand{\bigtitle}[2]{
   \begin{center}
-  {\Huge #1}
+	{\fontspec[Scale=\customscale]{Futura Book}
+	\MakeUppercase{\Large #1}\\
+	{#2}
+	}
   \end{center}
- }
+}
+
  
  \newcommand{\translation}[1]{
 	\emph{#1}
