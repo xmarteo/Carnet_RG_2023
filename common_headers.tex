@@ -80,7 +80,7 @@ headsep=3mm,
   \gresetinitiallines{1}
 }
 
-\newcommand{\gscore}[1}{
+\newcommand{\gscore}[1]{
   \gregorioscore{\subfix{gabc/#1}}
 }
 
@@ -110,6 +110,7 @@ headsep=3mm,
   \grechangedim{beforeinitialshift}{#1}{scalable}
 }
 %% default space before and after initials is 0mm to the left and 2mm to the right.
+\newcommand{\defaultannotationshift}{-2mm}
 \newcommand{\defaultinitialspace}{\initialspace{0mm}{-\defaultannotationshift}}
 \defaultinitialspace{}
 
@@ -149,6 +150,7 @@ headsep=3mm,
 %%%%%%%%%%%%%%% COLUMN MANAGEMENT %%%%%%%%%%%%%%%
 
 \usepackage{paracol}
+\usepackage{multicol}
 \setlength\columnseprule{0.4pt}
 \setlength{\multicolsep}{6pt plus 2pt minus 1.5pt}
 
@@ -206,7 +208,6 @@ headsep=3mm,
 	\emph{#1}
  }
  
- \usepackage{multicol}
  \newcommand{\hymntranslation}[1]{
  	\begin{multicols}{2}
 	\begin{alltt}\normalfont
