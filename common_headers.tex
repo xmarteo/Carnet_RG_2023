@@ -12,7 +12,6 @@
 \usepackage{needspace}
 \usepackage{etoolbox}
 \usepackage{enumitem}
-\usepackage{alltt}
 
 \setdefaultlanguage[variant=french, frenchitemlabels=false]{french}
 
@@ -87,6 +86,10 @@ headsep=3mm,
 
 % we want to print NABC 'cause this is the RG
 \gresetnabc{1}{visible}
+
+%correction of the space before and after the score by exchanging spaceabovelines for spacebeneathtext
+\grechangedim{spaceabovelines}{-3mm}{scalable}
+\grechangedim{spacebeneathtext}{3mm}{scalable}
 
 %%%%%%%%%%%%%%% FONTS %%%%%%%%%%%%%%%
 
@@ -195,7 +198,9 @@ headsep=3mm,
 
 
 \newcommand{\smalltitle}[1]{
+  \vspace{0.5\baselineskip}
   \par{\centering\textbf{#1}\par}
+  \vspace{0.5\baselineskip}
 }
 
 \newcommand{\bigtitle}[2]{
@@ -207,16 +212,32 @@ headsep=3mm,
   \end{center}
 }
 
- 
  \newcommand{\translation}[1]{
 	\emph{#1}
  }
  
- \newcommand{\hymntranslation}[1]{
+\makeatletter
+\newcommand{\@printReading}[1]{
+    \def\content{%
+        {#1
+        }
+    \par\noindent}
+    \content
+\egroup\endgroup}
+\newcommand\reading{\begingroup%
+  \begingroup%
+    \lccode`\~=9\relax%
+    \lowercase{%
+  \endgroup
+    \def~%
+  }{\hspace{8mm}}%
+  \catcode9=\active%
+  \bgroup\obeylines\@printReading}
+\makeatother
+
+\newcommand{\hymntranslation}[1]{
  	\begin{multicols}{2}
-	\begin{alltt}\normalfont
-	#1
-	\end{alltt}
+	\reading{#1}
 	\end{multicols}
 }
  
