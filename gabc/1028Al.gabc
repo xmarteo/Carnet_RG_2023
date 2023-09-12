@@ -3,5 +3,8 @@ office-part:Alleluia;
 mode:8;
 book:Graduale Romanum, 1961, p. 644 & The Liber Usualis, 1961, p. 1720;
 transcriber:Andrew Hinkley;
+nabc-lines:1;
+nabc-transcriber:Matthias Bry;
+nabc-source:SG359 f156;
 %%
-(c3) Al(def)le(f_e/f!gwhg)lú(fhhh){ia}.(hiHF'fe.) (;) * <c><i>ij.</i></c>(gh//efED.f!gwhhg ehf/gffe.) (::) <sp>V/</sp> Ni(hv.gih)mis(h) ho(h)no(hg)rá(gh!ivvHFhfg)ti(h) sunt(g.) (;) a(gf)mí(hji)ci(h) tu(gh)i,(f_e) De(hvvGE.gxfgFD./!egFE/!fe)us :(e.) (:) ni(efeh)mis(h) con(h)for(h)tá(hfhGE//fhFDgxgvFEf.0/[-0.5]hhh/ijHF.1)(,)(g_[oh:h]i_[oh:h]g_[oh:h]ivHGhe.gxf_e/!g_[oh:h]egxgvFEfd)tus(e) est(d.) (;) prin(fd~)ci(e)pá(ef)tus(f) *() e(f)ó(hg/hfh)rum.(ghFE.) (,) (df!hvFE//d.0f!gwhghvGFg.//egfgvEDefe.) (,) (gxhhvFEfgED.gyhhvFEf_gffe.) (::)
+(c3) Al(def|vi>pp2)le(f_e/f!gwhg|cl-viqlhi!cl-hi)lú(fhhh|pe-ds>){ia}.(hiHF'fe.|pesu2lsc2pilst2) <c><i>ij.</i></c>(;) (gh//efED.|peStoS2sut1|f!gwhhg ehf/gffe.|viqlhicl-to-1vipr) (::) <sp>V/</sp> Ni(hv.gih|vi/tohi)mis(h|ta) ho(h|ta)no(hg|cllsc2)rá(gh!ivvHFhfg|vi-pp2ci//pohh)ti(h|vi) sunt(g.|ta) (;) a(gf|cllsc2)mí(hji|to)ci(h|vi) tu(gh|pe)i,(f_e|cl-) De(hvvGE.gxfgFD./!egFE/!fe|visu1sut1ppu1lsc2/visu1sut1ppu1lsc2//cippu1cllsc2)us :(e.|ta) (:) ni(efeh|poppu1)mis(h|vi) con(h|vi)for(h|vi)tá(hfhGE//|po-1su2|fhFD|pesu2lsc2|gxgvFE|/////visu1suu1lsc2|f./hhh|ta-ts-|ijHF.1|toS2sut1)(,)(g_i_g_|toS|ivHG|cilsc2|he.|clSlsc2|gxf_e/!g_e|////cl-cl-|gxgvFEfd|/////cilsc2/cl)tus(e|vi) est(d.|ta) (;) prin(fd~|vi>)ci(e|vi)pá(ef|peS)tus(f|vi) * e(f|vi)ó(hg/hfh|cl!po)rum.(ghFE.|toS2sut1) (,) (df!hvFE//|clSsut1pp2|d.0f!gwhghvGF|ql!po-1su2ppt2|g.//egfgvEDefe.|vi-/to!clSsut1/to-1) (,) (gxhhvFEfgED.gyhhvFEf_gffe.|tgS3) (::)
