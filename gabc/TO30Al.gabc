@@ -3,5 +3,8 @@ office-part:Alleluia;
 mode:4;
 book:Graduale Romanum, 1961, p. [136] & The Liber Usualis, 1961, p. 1285;
 transcriber:Andrew Hinkley;
+nabc-lines:1;
+nabc-transcriber:Matthias Bry;
+nabc-sources:SG359p151;
 %%
-(c4) Al(fd~)le(efg)lú(hgh){ia}.(ixhiHGgf.0) <clear>*(,) <i>ij.</i>(ixhiHGge./ghGFEf_gffe.) (::) <sp>V/</sp> Lau(h)da,(ixg//ivHGhffe.) (,) Je(fd)rú(ef)sa(g)lem,(ixg./hiHFhfg.) Dó(ixgh!ij)mi(g)num :(giHG.) (:) lau(ixge/ghFEghFEf_h//ivGFhvGFge~)da(e.) (,) <nlba>De(efg)um</nlba>(gh~) tu(ixhi_[oh:h]H_[oh:h]GF)um,(ghg.___) <clear>*(;) Si(ixg!hwih)on.(hv.ghgfffd//gfg/ffdgvFE.) (::)
+(c4) Al(fd~|vi>)le(efg|sa)lú(hgh|po){ia}.(ixhiHGgf.0|pesu2pilst2) <i>ij.</i>(,) (ixhiHGge./|/////pesu2pi|ghGFE|pesu3|f_gffe.|pqpr) (::) <sp>V/</sp> Lau(h|vi>)da,(ixg//ivHGhffe.|//////cippu1lsc2//clSsut1) (,) Je(fd|cllsc2)rú(ef|peS)sa(g|vi)lem,(ixg./hiHFhfg.|vi-//pehisu2/pohi) Dó(ixgh!ij|sapp1)mi(g|ta)num:(giHG.|vippu1su1sut1lsc2) (:) lau(ixge|////cllsc2|ghFE|pesu2|ghFE|pesu2|f_h//ivGF|pq-he///cihh|hvGFge~|//ci/vi>)da(e.|ta) (,) De(efg|sa)um(gh~|pe~) tu(ixhiH__GF|toSsu2//peS)um,(ghg.___|ta) (;) Si(ixg!hwih|/////ql!clppt1)on.(hv.ghg|vi-/to-1hj|fffd//|dscl|gfg/ffd|po-1//tghi|gvFE.|visu1sut1lsc2) (::)

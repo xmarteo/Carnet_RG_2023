@@ -3,7 +3,11 @@ office-part:Antiphona;
 mode:1;
 book:Antiphonale Monasticum, 1934, p. 624;
 transcriber:Dominique CROCHU;
+nabc-lines:1;
+nabc-transcriber:Matthias Bry;
+nabc-source:SG391p95;
 %%
-(c4)Vos(d) qui(d) re(e)li(f)quí(g)stis(g) óm(f_g)ni(fv_ED)a,(d!ewf.) *(,) et(c) se(d)cú(f)ti(fd) e(f_h)stis(f_g_h) me :(g.) (:) cén(h_i)tu(g)plum(fe) ac(f)ci(g)pi(fe)é(d!ewf)tis,(c.) (;) et(df~) vi(fv_2fv_)tam(c) æ(d)tér(ff)nam(e_f) pos(g)si(fe)dé(d)bi(cd)tis.(d.) (::)
+(c4) Vos(d|talssta6) qui(d|ta) re(e|vi)li(f|vi)quís(g|vi)tis(g|vi) óm(f_g|pe>1)ni(fv_ED|vi-su1sut1)a,(d!ewf.|vs) *(,) et(c|ta) se(d|vi)cú(f|vi)ti(fd|cl) es(f_h|peSlss3)tis(f_g_h|///scS) me:(g.|ta) (:) cén(h_i|vi-/vi>hi)tu(g|vi-)plum(fe|cllsc2) ac(f|vi)ci(g|vi)pi(fe|cl)é(d!ewf|qlppt1)tis,(c.|ta) (;) et(df~|pe~) vi(fv_2fv_|bv-)tam(c|ta) æ(d|ta)tér(ff|vs)nam(e_f|peS) pos(g|vi)si(fe|cl)dé(d|vi)bi(cd|pe)tis.(d.|ta) (::)
+
 <i><c>Cant.</c></i> Be(f)ne(gh)díc(h)tus(h) Dó(h)mi(h)<i>nus</i>,(hg) <i>De</i>(ixgi)<i>us</i>(h) <b>Is</b>(hr[ocb:1{])<b>ra</b>(hg[ocb:0}])ël.(gh..) (::)
 E(h) u(h) o(g) u(f) a(gh) e.(gf..) (::)
